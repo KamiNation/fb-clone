@@ -1,0 +1,237 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  /* background-color: red; */
+
+  /* border-color: orange; */
+  /* border-style: solid; */
+
+  padding-left: 9.1875rem;
+  padding-right: 10.875rem;
+  padding-bottom: 7.4375rem;
+}
+
+#WelcomeText-container {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  /* border-color: blue; */
+  /* border-style: solid; */
+}
+
+img {
+  height: 3rem;
+  /* width: 16.375rem; */
+}
+
+#left {
+  display: inline-block;
+  /* flex-direction: column; */
+  padding-bottom: 4.3125rem;
+  width: 16.57rem;
+}
+
+#left > h2 {
+  padding-left: 14px;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+
+#right{
+  flex: 1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#Login-container {
+  /* background-color: black; */
+
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+  padding-bottom: 24px;
+  padding-top: 10px;
+
+  text-align: center;
+
+  width: 396px;
+  height: 349px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  height: 49px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-color: #dcdfe2;
+    border-style: solid;
+    border-radius: 5px
+}
+
+select {
+  width: 124px;
+  height: 34px;
+  border-color: #dcdfe2;
+    border-style: solid;
+    border-radius: 5px
+}
+
+div > button {
+  width: 93%;
+  height: 49px;
+  border-color: #dcdfe2;
+    border-style: solid;
+    border-radius: 5px
+  padding: 5px;
+}
+
+#Modal-container {
+  display: inline-block;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 437px;
+  height: 538px;
+  /* border-color: brown; */
+  border-radius: 10px;
+  border-color: #dcdfe2;
+    border-style: solid;
+    /* border-radius: 5px */
+  /* background-color: aqua; */
+  /* padding: 0px; */
+  /* margin: 0px; */
+}
+
+#Sign-Modal-container {
+  /* background-color: red; */
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+/* #Sign-Modal-container-left{
+  padding: 8px;
+} */
+
+#Sign-Modal-container-left > span {
+  font-size: 2rem;
+}
+
+#Sign-Modal-container-left-h2 {
+  display: flex;
+  padding-bottom: 10px;
+  /* justify-content: flex-end; */
+}
+
+#Sign-Modal-container-select {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#Sign-Modal-container-select > p {
+  display: flex;
+  padding-left: 15px;
+}
+
+#Sign-Modal-container-span {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select-items {
+  border-radius: 5px;
+}
+
+.Modal-form-container-name{
+  text-align: center;
+} 
+
+.Modal-form-container-name > input[type="text"] {
+  width: 194px;
+  height: 38px;
+  padding: 0px;
+}
+
+#Modal-form-container-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#Sign-Modal-container-radio{
+  /* background-color: blue; */
+  display: flex;
+
+  /* padding: 10px; */
+  justify-content: space-evenly;
+}
+
+#Sign-Modal-container-radio > span{
+  border-color: #dcdfe2;
+    border-style: solid;
+    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span > div{
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-direction: left; */
+  padding-left: 4px;
+}
+
+
+label{
+  border-radius: 15px;
+  border-color: red;
+}
+
+
+#text-content{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+    padding-left: 15px;
+} 
+
+#text-content > p {
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+#control{
+height: 100vh;
+display: flex:
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
